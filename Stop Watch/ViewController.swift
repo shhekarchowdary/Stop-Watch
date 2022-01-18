@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     
     var timer = Timer()
     
+    var a: Int = 1
+    
     var time: [String:Int] = [ "seconds": 0, "minutes": 0, "hours": 0]
     
     var timerRunning: Bool = false
