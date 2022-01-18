@@ -13,11 +13,12 @@ class ViewController: UIViewController {
     
     var a: Int = 1
     
-    var sjnj: String = "vajghea"
     
     var time: [String:Int] = [ "seconds": 0, "minutes": 0, "hours": 0]
     
     var timerRunning: Bool = false
+    
+    var sjnj: String = "vajghea"
     
     @IBOutlet weak var secondsLabel: UILabel!
     @IBOutlet weak var minutesLabel: UILabel!
